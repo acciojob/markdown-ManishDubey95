@@ -7,7 +7,7 @@ const App = () => {
   const [typeText, setTypeText] = useState("");
 
   useEffect(() => {
-    setTypeText("#");
+    setTypeText("# ");
   }, []);
 
   return (
