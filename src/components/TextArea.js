@@ -3,14 +3,16 @@ import React from "react";
 
 const TextArea = ({ setTypeText, typeText }) => {
   return (
-    <div className="textarea">
+    <div>
       <textarea
         type="text"
         onChange={(e) => setTypeText(e.target.value)}
         value={typeText}
+        className="textarea"
       />
     </div>
   );
 };
 
 export default TextArea;
+
