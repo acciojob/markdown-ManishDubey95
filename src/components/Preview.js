@@ -1,15 +1,17 @@
 import React from "react";
 
-const Preview = ({ typeText }) => {
-  const renderMarkdown = () => {
-    return { __html: typeText };
-  };
 
-  return (
-    <div className="preview">
-      <div dangerouslySetInnerHTML={renderMarkdown()} />
-    </div>
-  );
-};
+const Preview = ({typeText}) =>{
+
+
+
+
+
+    return(
+        <div className="preview">
+            <h1 className="loading">{typeText}</h1>
+        </div>
+    )
+}
 
 export default Preview;
